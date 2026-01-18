@@ -1,3 +1,9 @@
+## 0.0.4
+
+### Fixed
+
+- Fixed in-app auto update not working due to parameter naming mismatch.
+
 ## 0.0.3
 
 ### Improved
