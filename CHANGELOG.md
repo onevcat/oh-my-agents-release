@@ -1,3 +1,21 @@
+## 0.0.9
+
+### Added
+
+- Add Cursor agent support, including shared memory doc grouping for AGENTS.md.
+- Add agent metadata fields (memory group, config hints, capabilities) across core/app/CLI.
+- Add grouped memory doc replacement UI and agent picker improvements.
+- Add UI navigation smoke test and typecheck to the test pipeline.
+
+### Changed
+
+- Improve onboarding agent detection messaging for agents without history parsers.
+- Expand docs with a dedicated add-agent quick guide.
+
+### Fixed
+
+- Prevent shared-memory agents from being locked into replacement selections.
+
 ## 0.0.8
 
 ### Fixed
@@ -25,9 +43,6 @@
 - Separate dev and release app data directories (dev uses `.dev` suffix).
 - Default app data cleanup targets dev directories; use `./scripts/app-clean.sh --release` for production.
 - Normalize release artifact filenames (no spaces) to avoid GitHub asset renaming issues.
-
-### Removed
-
 - Removed the "Active" badge from Settings > Agents.
 
 ## 0.0.5
@@ -44,7 +59,7 @@
 
 ## 0.0.3
 
-### Improved
+### Added
 
 - DMG installer now includes Applications folder shortcut for easier drag-to-install experience.
 
