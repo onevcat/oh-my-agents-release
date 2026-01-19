@@ -1,3 +1,9 @@
+## 0.0.8
+
+### Fixed
+
+- Remove AppleDouble entries from updater tarballs to avoid unpack failures on macOS.
+
 ## 0.0.7
 
 ### Changed
