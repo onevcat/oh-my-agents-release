@@ -1,3 +1,9 @@
+## 0.0.5
+
+### Changed
+
+- Removed the "Active" badge from agent cells in Settings > Agents.
+
 ## 0.0.4
 
 ### Fixed
