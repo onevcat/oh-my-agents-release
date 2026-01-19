@@ -1,3 +1,9 @@
+## 0.0.7
+
+### Changed
+
+- Versioned release artifact filenames with platform suffix (e.g. `OhMyAgents_0.0.7_macos-arm64.*`) for stable updater URLs.
+
 ## 0.0.6
 
 ### Added
