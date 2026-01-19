@@ -1,3 +1,19 @@
+## 0.0.6
+
+### Added
+
+- Show app version and build number in Settings > About.
+
+### Changed
+
+- Separate dev and release app data directories (dev uses `.dev` suffix).
+- Default app data cleanup targets dev directories; use `./scripts/app-clean.sh --release` for production.
+- Normalize release artifact filenames (no spaces) to avoid GitHub asset renaming issues.
+
+### Removed
+
+- Removed the "Active" badge from Settings > Agents.
+
 ## 0.0.5
 
 ### Changed
