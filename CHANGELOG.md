@@ -4,6 +4,10 @@
 
 - Remove AppleDouble entries from updater tarballs to avoid unpack failures on macOS.
 
+### Changed
+
+- Add a custom background image to the DMG installer window.
+
 ## 0.0.7
 
 ### Changed
