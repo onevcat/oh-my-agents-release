@@ -1,3 +1,25 @@
+## 0.0.10
+
+Rules assets are here, with Antigravity support and flexible memory doc locations across scopes.
+
+### Added
+
+- Add Rules assets so rule files can be distributed alongside skills and memory docs.
+- Add Antigravity agent support, including rules + memory doc handling and icon.
+- Add Settings > Importing actions to rerun onboarding and rescan all projects.
+- Add a feedback entry under the sidebar Help menu.
+
+### Changed
+
+- Allow agent memory doc base paths to differ between user and project scope.
+- Update project/asset UI to surface Rules assets and memory doc grouping.
+- Adjust onboarding re-entry to skip the welcome step and final guide.
+- Show added-or-updated asset counts after a full rescan.
+
+### Fixed
+
+- Clear stale project search filters when navigating away from the Projects page.
+
 ## 0.0.9
 
 ### Added
