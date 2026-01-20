@@ -1,3 +1,23 @@
+## 0.0.11
+
+### Added
+
+- Add OpenCode agent support (skills + memory docs), including history-based discovery and icon.
+- Add pinned agents in Settings with a 5-agent limit to control which agents appear in pickers.
+
+### Changed
+
+- Show pinned agents in asset agent popovers, with a “More agents…” action to open the full picker.
+- Cap inline agent chips in project asset rows and show a +N indicator when more are linked.
+- Open the Asset Library when an empty project agent row is clicked, and preselect the clicked agent.
+- Soften the core actions guide overlay with stronger blur and slower intro timing.
+- Publish a stable DMG filename for website downloads (version shown in the asset label instead).
+- Refresh the Antigravity icon.
+
+### Fixed
+
+- Prevent drag-and-drop unlisten errors when opening the Assets view.
+
 ## 0.0.10
 
 Rules assets are here, with Antigravity support and flexible memory doc locations across scopes.
