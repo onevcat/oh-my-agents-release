@@ -1,3 +1,16 @@
+## 0.1.0
+
+Beta starts here, with Amp support and smarter onboarding imports.
+
+### Added
+
+- Add Amp agent support (skills + memory docs), including history-based discovery and icon.
+
+### Changed
+
+- Make onboarding import previews and rule creation respect the agents you selected, and link AGENTS.md to every enabled agent that supports it.
+- Default agent selection now follows pinned agents; onboarding auto-pins selected agents (up to 5) and defaults to Claude + Codex.
+
 ## 0.0.11
 
 ### Added
