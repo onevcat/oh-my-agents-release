@@ -1,8 +1,24 @@
+## 0.1.2
+
+### Added
+
+- Add Droid/Factory agent support (skills + memory docs), including history-based discovery and icon.
+
+### Changed
+
+- Improve agents row to support horizontal scrolling with drag-to-scroll for mouse users.
+- Refine global scrollbar styling: thinner track and lighter colors for both light and dark modes.
+
+### Fixed
+
+- Fix User Scope memory doc linking so memory docs can be properly reused across agents.
+- Show replace dialog when enabling an agent would cause a memory doc conflict.
+
 ## 0.1.1
 
 ### Fixed
 
-- Fix unlinking rules with “Delete synced files” so Antigravity files stored under `.agent/rules` are removed correctly.
+- Fix unlinking rules with "Delete synced files" so Antigravity files stored under `.agent/rules` are removed correctly.
 
 ## 0.1.0
 
@@ -26,7 +42,7 @@ Beta starts here, with Amp support and smarter onboarding imports.
 
 ### Changed
 
-- Show pinned agents in asset agent popovers, with a “More agents…” action to open the full picker.
+- Show pinned agents in asset agent popovers, with a "More agents…" action to open the full picker.
 - Cap inline agent chips in project asset rows and show a +N indicator when more are linked.
 - Open the Asset Library when an empty project agent row is clicked, and preselect the clicked agent.
 - Soften the core actions guide overlay with stronger blur and slower intro timing.
