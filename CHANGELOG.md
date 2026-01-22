@@ -1,3 +1,18 @@
+## 0.1.3
+
+OMA now supports oma:// deep links and github.com/skills.sh imports for faster sharing and onboarding.
+
+### Added
+
+- Support oma:// deep links to open OMA and start asset imports from supported URLs.
+- Accept skills.sh URLs (with skill filters) and highlight filtered skills in the import picker.
+- Add a Settings toggle to control whether OMA links ask for confirmation or auto-import.
+
+### Changed
+
+- After importing assets, guide you to choose a project and agents before finishing the link.
+- Refine the OMA link confirmation dialog layout and inline import progress feedback.
+
 ## 0.1.2
 
 ### Added
