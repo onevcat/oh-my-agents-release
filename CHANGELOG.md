@@ -1,3 +1,19 @@
+## 0.1.4
+
+Manage agent ordering with drag-and-drop, plus faster Assets navigation and filtering.
+
+### Added
+
+- Drag-and-drop ordering for agents in Settings, with pinned agents grouped at the top.
+- Remembered agent order across sessions and applied it across agent pickers and project/asset views.
+- Add Assets sidebar filters (Memory Docs, Skills, Rules) to focus the list by asset type.
+- Add Cmd+1 / Cmd+2 shortcuts for Projects/Assets, with Cmd+2 cycling asset filters and inline shortcut hints.
+- Show asset type icons in the Assets filter list.
+
+### Changed
+
+- Agent lists now respect custom order after pin grouping instead of relying solely on default ordering.
+
 ## 0.1.3
 
 OMA now supports oma:// deep links and github.com/skills.sh imports for faster sharing and onboarding.
