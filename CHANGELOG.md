@@ -1,3 +1,21 @@
+## 0.1.5
+
+Windsurf support is here, including skills, rules, and AGENTS.md memory docs.
+
+### Added
+
+- Add Windsurf agent support (skills, rules, AGENTS.md memory docs), including history-based discovery and icon.
+- Add a Release Notes entry in the sidebar Help menu.
+- Sync Windsurf global rules to `~/.codeium/windsurf/memories/global_rules.md` when using User Scope rules.
+
+### Changed
+
+- Use VS Code workspaceStorage history for Antigravity project discovery.
+- Update Antigravity config file hints to workspaceStorage paths.
+- Simplify Settings > Assets import layout.
+- Let asset detail content fill the available height.
+- Refresh Help menu icons.
+
 ## 0.1.4
 
 Manage agent ordering with drag-and-drop, plus faster Assets navigation and filtering.
