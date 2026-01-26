@@ -1,3 +1,23 @@
+## 0.1.6
+
+Trae support is here, including skills, rules, AGENTS.md memory docs, and history-based discovery.
+
+### Added
+
+- Add Trae agent support (skills, rules, AGENTS.md memory docs), including history-based discovery and icon.
+- Add inline renaming directly in Assets and Projects detail headers.
+
+### Changed
+
+- Prime project rules cache so switching projects avoids empty-state flicker.
+- Use VS Code workspaceStorage history for Cursor project discovery.
+- Update Cursor config file hints to workspaceStorage paths.
+
+### Fixed
+
+- Keep asset detail cards in sync after inline rename in grid view.
+- Stabilize detail header layout while editing titles to prevent jump/overlap.
+
 ## 0.1.5
 
 Windsurf support is here, including skills, rules, and AGENTS.md memory docs.
