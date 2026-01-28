@@ -1,3 +1,17 @@
+## 0.1.7
+
+GitHub Copilot support is here, with first-class instructions, skills, and history-based project discovery.
+
+### Added
+
+- Add GitHub Copilot agent support, including `.github/skills`, `AGENTS.md` memory docs, and Copilot instructions.
+- Discover Copilot projects from `~/.copilot/session-state/*/workspace.yaml` history.
+- Add a Copilot icon in agent lists and pickers.
+
+### Changed
+
+- Widen the pinned agents popover so long names like “GitHub Copilot” fit more comfortably.
+
 ## 0.1.6
 
 Trae support is here, including skills, rules, AGENTS.md memory docs, and history-based discovery.
