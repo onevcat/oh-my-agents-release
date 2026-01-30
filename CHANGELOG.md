@@ -1,3 +1,17 @@
+## 0.1.8
+
+Kimi support is here, with history-based discovery and a more focused onboarding selection.
+
+### Added
+
+- Add Kimi agent support (skills + memory docs), including history-based project discovery and icon.
+
+### Changed
+
+- Onboarding agent selection now lists agents with recent projects and defaults selection to those agents.
+- Let onboarding skip agent selection when none are available or all are deselected.
+- Reword onboarding hints to reference history files instead of config files.
+
 ## 0.1.7
 
 GitHub Copilot support is here, with first-class instructions, skills, and history-based project discovery.
