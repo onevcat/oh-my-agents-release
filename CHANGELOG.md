@@ -1,3 +1,22 @@
+## 0.1.9
+
+OpenClaw support is here, with scope-aware memory doc handling and smoother agent-first asset linking.
+
+### Added
+
+- Add OpenClaw agent support, including skills, `~/.openclaw/workspace/AGENTS.md` user-scope memory docs, installation detection, and icon.
+
+### Changed
+
+- When linking from an empty project's agent row, directly link compatible assets to the selected agent instead of asking you to pick the agent again.
+- When opening Assets Library from a specific agent, filter the asset list by that agent's capabilities in the current scope.
+- During local import, memory-doc rule hints can now fall back to pinned agents when no agent roots are detected for the project.
+
+### Fixed
+
+- Prevent creating or attaching OpenClaw project-scope memory-doc rules across rule planning, import hints, and agent enable flows.
+- When adding a memory doc without specifying an agent, automatically fall back to a compatible pinned/default agent if the current one is unsupported in that scope.
+
 ## 0.1.8
 
 Kimi support is here, with history-based discovery and a more focused onboarding selection.
