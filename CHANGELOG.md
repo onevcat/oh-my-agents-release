@@ -1,3 +1,17 @@
+## 0.1.10
+
+Sync conflict handling is now clearer and safer, with explicit resolution choices and a new Discard option for update rules.
+
+### Added
+
+- Add a Discard action for update items in Sync details, letting you keep project file content while reverting unsynced OMA Library edits.
+- Add confirmation dialogs before applying Pullback, Overwrite, or Discard in Sync detail resolution.
+
+### Changed
+
+- Redesign Sync conflict controls with explicit Pullback/Overwrite toggles and a dedicated Apply action.
+- Rename Sync detail labels from "Workspace/Destination" to "OMA Library/Project File" across action text, column labels, and helper copy.
+
 ## 0.1.9
 
 OpenClaw support is here, with scope-aware memory doc handling and smoother agent-first asset linking.
